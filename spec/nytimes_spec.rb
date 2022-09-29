@@ -11,6 +11,7 @@ class Nytimes
     it 'can get status' do 
       #FINISHED EXAMPLE: Using @hash, define a variable called `result` that returns the status
       result = @hash[:status]
+      
       expect(result).to eq("OK")
     end
 
